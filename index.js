@@ -6,7 +6,7 @@ const port= process.env.PORT || 8080;
 
 
 
-app.get("/", (req,res)=>{
+app.get("/cool", (req,res)=>{
     console.log("Requested / route");
     res.send("<html><body><h1>" +cool()+ "</h1></body></html>")
 
